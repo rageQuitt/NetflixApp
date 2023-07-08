@@ -1,0 +1,45 @@
+header{
+
+    position: fixed;
+    z-index:999;
+    top : 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: rgb(20, 20, 20);
+    background: linear-gradient(180deg, black, transparent);
+    transition: all ease 0.5s;
+    /*recherche sur pinning header, linear gradiant 180° lorsqu'il est au haut de la page*/
+}
+
+
+.header--logo{
+
+    height: 50px; 
+}
+
+
+.header--logo img{
+
+    height: 100%; 
+}
+
+.header--user{
+
+    height: 50px; 
+}
+
+
+.header--user img{
+
+    height: 75%; 
+    border-radius: 5px;
+}
+
+.header.scrolled {
+    background-color: rgb(20, 20, 20);
+  }
